@@ -1,0 +1,25 @@
+{
+  "name": "hain-plugin-duckduckgo",
+  "version": "1.0.0",
+  "description": "A simple duckduckgo search plugin for Hain",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erik-maas/hain-plugin-duckduckgo.git"
+  },
+  "keywords": [
+    "hain",
+    "duckduckgo",
+    "duck",
+    "search",
+    "hain0"
+  ],
+  "author": "Erik Maas",
+  "license": "MIT",
+  "hain": {
+    "prefix": "/ddg ",
+    "usage": "/ddg something",
+    "icon": "#fa fa-bold",
+    "redirect": "/ddg "
+  }
+}
